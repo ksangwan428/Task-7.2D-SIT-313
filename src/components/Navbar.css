@@ -1,0 +1,24 @@
+/* Navbar.css */
+.navbar {
+    background-color: #888; /* Gray background color */
+    padding: 5px 0; /* Adjust the top and bottom padding */
+  }
+  
+  .navbar-list {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    display: flex; /* Display list items horizontally */
+    justify-content: space-around; /* Space evenly between items */
+  }
+  
+  .navbar-item {
+    color: white; /* Text color */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  .navbar-item:hover {
+    text-decoration: underline; /* Underline text on hover */
+  }
+  

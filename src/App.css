@@ -1,0 +1,61 @@
+/* App.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1em;
+  flex-direction: column;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.field {
+  margin-bottom: 1em; /* Add some spacing between fields */
+}
+
+.select {
+  display: flex;
+  gap: 1em;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1em;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.ui.radio.checkbox input[type="radio"] {
+  margin-right: 0.5em; /* Add some spacing between radio buttons and labels */
+}
+
+.custom-heading {
+  margin-top: 0; /* Remove top margin for consistency */
+  font-size: 24px;
+}
